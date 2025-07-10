@@ -9,13 +9,21 @@
   font-weight: 800;
   font-style: normal;
 }
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
 
 section{
     width: 100%;
-    height: 698px;
+    min-height: 100vh;
     background-image: url(./Assets/Hero-bg.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+
 }
 section nav{
     max-width: 1140px;
@@ -40,4 +48,33 @@ nav button{
 nav button:hover{
     background-color:#4d47ffb6 ;
     padding:15px 45px ;
+}
+.banner{
+    width: 100%;
+    height: 350px;
+    background-image: url(./Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+   
+
+}
+.banner h1{
+    font-size: 55px;
+    color:#252432;
+}
+.banner button{
+    background-color:#4E47FF ;
+    color: white;
+    padding: 10px 36px;
+    border-radius: 8px;
+    margin-top: 37px;
+}
+.banner button:hover{
+    background-color:#4d47ffb6 ;
 }
