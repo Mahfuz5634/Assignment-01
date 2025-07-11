@@ -141,9 +141,6 @@ nav button:hover{
     margin-top: 50px;
     padding-bottom: 20px;
 }
-.main2 h1{
-    
-}
 .hadd{
     font-size: 38px;
     color:#252432;
@@ -248,4 +245,59 @@ nav button:hover{
 .main-4 button:hover{
     background-color:#4d47ffb6 ;
     transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.main-5{
+    max-width: 1120px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.container-1{
+    height: 232px;
+    width: 528px;
+}
+.main-5 h1{
+    font-size: 70px;
+    color:#252432;
+}
+.container-2{
+    height: 450px;
+    width: 450px;
+}
+.inputt{
+    height: 70px;
+    width: 440px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.text-area{
+    width: 440px;
+    height: 120px;
+}
+.main-5 button{
+     background-color:#4E47FF ;
+    color: white;
+    padding: 10px 36px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 445px;
+}
+.main-5 button:hover{
+    background-color:#4d47ffb6 ;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.formm ::placeholder{
+    font-size: 15px;
+    padding: 20px;
+}
+.labell{
+    color: #252432;
+    font-size: 17px;
 }
