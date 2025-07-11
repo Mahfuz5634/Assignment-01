@@ -1,8 +1,11 @@
 *{
     border: 0;
     margin: 0;
-}
 
+}
+body{
+    background-color: #f5f8ff;
+}
 .inter-color {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -126,8 +129,10 @@ nav button:hover{
     background-color: #e4e6ff;
     border-radius: 24px;
     margin-bottom: 80px;
+
     
 }
+
 .main2-description{
     display: flex;
     justify-content: center;
@@ -135,6 +140,9 @@ nav button:hover{
     gap: 130px;
     margin-top: 50px;
     padding-bottom: 20px;
+}
+.main2 h1{
+    
 }
 .hadd{
     font-size: 38px;
@@ -202,4 +210,42 @@ nav button:hover{
     display: flex;
     gap: 15px;
 
+}
+.main-4{
+    max-width: 1120px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.276);
+    border-radius: 14px;
+}
+.main-4 img{
+    height: 300px;
+    width: 840px;
+    border-radius: 48px;
+}
+.main-4 h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-top: 70px;
+
+}
+.main-4 p{
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+.main-4 button{
+   background-color:#4E47FF ;
+    color: white;
+    padding: 10px 36px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main-4 button:hover{
+    background-color:#4d47ffb6 ;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
