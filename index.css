@@ -21,7 +21,7 @@ body{
 
 section{
     width: 100%;
-    min-height: 100vh;
+    height: 620px;
     background-image: url(./Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
